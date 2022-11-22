@@ -1,6 +1,6 @@
 package com.company;
-
-public class Coche {
+// no se puede crear objetos de clases abstractas
+public abstract class Coche {
         // atributos
         String color;
         String fabricante;

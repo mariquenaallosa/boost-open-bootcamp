@@ -5,7 +5,7 @@ public class Polimorfismo {
     public static void main(String[] args) {
 
 
-        Coche coche1 = new Coche();
+       // Coche coche1 = new Coche();
 
 
         CocheElectrico coche2 = new CocheElectrico();

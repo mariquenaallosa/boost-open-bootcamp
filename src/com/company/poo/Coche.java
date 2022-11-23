@@ -1,4 +1,4 @@
-package com.company;
+package com.company.poo;
 // no se puede crear objetos de clases abstractas
 public abstract class Coche {
         // atributos

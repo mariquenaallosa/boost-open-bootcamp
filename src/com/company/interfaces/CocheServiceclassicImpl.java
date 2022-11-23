@@ -1,8 +1,7 @@
 package com.company.interfaces;
 
-import com.company.Coche;
-import com.company.CocheElectrico;
-import com.company.interfaces.CocheService;
+import com.company.poo.Coche;
+import com.company.poo.CocheElectrico;
 
 public class CocheServiceclassicImpl implements CocheService {
 

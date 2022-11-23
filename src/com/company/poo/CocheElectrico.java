@@ -1,6 +1,8 @@
-package com.company;
+package com.company.poo;
 
-public class CocheElectrico  extends Coche{
+import com.company.poo.Coche;
+
+public class CocheElectrico  extends Coche {
 
     String motorElectrico;
 

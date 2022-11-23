@@ -1,4 +1,4 @@
-package com.company;
+package com.company.poo;
 
 public class Polimorfismo {
 

@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.poo.Coche;
+
 public class ArrayMain {
 
 

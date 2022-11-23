@@ -1,6 +1,6 @@
 package com.company.interfaces;
 
-import com.company.Coche;
+import com.company.poo.Coche;
 
 public interface CocheService {
     // define métodos sin cuerpo

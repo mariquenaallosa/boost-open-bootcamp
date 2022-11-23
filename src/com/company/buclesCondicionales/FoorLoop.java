@@ -1,4 +1,4 @@
-package com.company;
+package com.company.buclesCondicionales;
 
 public class FoorLoop {
     public static void main(String[] args) {

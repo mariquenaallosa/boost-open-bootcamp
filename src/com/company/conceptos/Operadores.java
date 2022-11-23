@@ -1,10 +1,10 @@
-package com.company;
+package com.company.conceptos;
 
 public class Operadores {
     public static void main(String[] args) {
 
 
-        //com.company.Operadores
+        //com.company.conceptos.Operadores
 
         //Aritmeticos
         // + - / * %

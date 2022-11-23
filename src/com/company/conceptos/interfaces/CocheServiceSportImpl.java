@@ -1,4 +1,4 @@
-package com.company.interfaces;
+package com.company.conceptos.interfaces;
 
 import com.company.poo.Coche;
 import com.company.poo.CocheHibrido;

@@ -1,4 +1,4 @@
-package com.company.buclesCondicionales;
+package com.company.conceptos.buclesCondicionales;
 
 public class SwitchCase {
 

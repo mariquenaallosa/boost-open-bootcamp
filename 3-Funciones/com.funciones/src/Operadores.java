@@ -20,19 +20,18 @@ public class Operadores {
         boolean resultado1 = numero1 < numero2;
 
         System.out.println(resultado1);
-        //Lógicos, relacion, comparacion, booleanos
+        //Lógicos
         /*
-        < -> menor
-        > -> mayor
-        >= -> mayor o igual
-        <= -> menor o igual
-        == -> igual
-        != -> desigual
         && -> and
         || -> or
-        !  -> negacion
-
         */
+
+        boolean resultado3 = numero1 > 5 && numero1 < 30;
+
+        int edad = 17;
+        boolean carnetJoven = edad > 15 && edad <= 26;
+
+
 
 
     }

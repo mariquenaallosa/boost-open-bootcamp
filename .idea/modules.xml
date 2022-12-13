@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1-conceptos/1-conceptos.iml" filepath="$PROJECT_DIR$/1-conceptos/1-conceptos.iml" />
       <module fileurl="file://$PROJECT_DIR$/2-IDE-archivosJava-sintaxis/2-IDE-archivosJava-sintaxis.iml" filepath="$PROJECT_DIR$/2-IDE-archivosJava-sintaxis/2-IDE-archivosJava-sintaxis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-Funciones/com.funciones/com.funciones.iml" filepath="$PROJECT_DIR$/3-Funciones/com.funciones/com.funciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/comentariosdocumentacion.iml" filepath="$PROJECT_DIR$/.idea/comentariosdocumentacion.iml" />
     </modules>
   </component>

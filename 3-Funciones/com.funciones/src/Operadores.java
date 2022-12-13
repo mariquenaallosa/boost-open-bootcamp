@@ -17,7 +17,23 @@ public class Operadores {
         // comparacion
         // == != > >= < <=
 
-        
+        boolean resultado1 = numero1 < numero2;
+
+        System.out.println(resultado1);
+        //Lógicos, relacion, comparacion, booleanos
+        /*
+        < -> menor
+        > -> mayor
+        >= -> mayor o igual
+        <= -> menor o igual
+        == -> igual
+        != -> desigual
+        && -> and
+        || -> or
+        !  -> negacion
+
+        */
+
 
     }
 }

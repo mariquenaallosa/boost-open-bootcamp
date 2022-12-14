@@ -4,14 +4,47 @@ public class Funciones {
 
 
         // opcion 1: funcion sin parametro y sin tipo de retorno
-        // showMenu();
-        // showMenu();
+//         showMenu();
+//         showMenu();
 
 
         // opcion 2: funcion sin parametro y con tipo de retorno
         String menu = getMenu();
         System.out.println(menu);
+        System.out.println(getMenu());
+        
+        double price = getPrice();
+        System.out.println(price);
+
+        // opcion 3: funcion con parametro y sin tipo de retorno
+        imprimirSaludo("OpenBootcamp");
+
+
+        // opcion 4: funcion con parametros y con tipo de retorno
+        String nombre= "Mariquena";
+        String apellido = "Allosa";
+        String saludo = obtenerSaludo(nombre, apellido);
+        System.out.println(saludo);
+
+        int numero1 = 50;
+        int numero2 = 200;
+        int resultadoSuma = suma(numero1,numero2);
     }
+    static int suma(int numero1,int numero2){
+        return numero1 + numero2;
+    }
+    static String obtenerSaludo(String nombre, String apellido){
+        return "Buenas tardes "+ nombre+" "+ apellido;
+    }
+    static void imprimirSaludo(String nombre) {
+        System.out.println("Buenas tardes " + nombre);
+    }
+
+    static double getPrice() {
+        return 100.99;
+    }
+
+
     /*
     * void indica que no devuelve nada
     * */

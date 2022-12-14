@@ -29,6 +29,8 @@ public class Funciones {
         int numero1 = 50;
         int numero2 = 200;
         int resultadoSuma = suma(numero1,numero2);
+
+        // funciones anónimas serian como callbacks
     }
     static int suma(int numero1,int numero2){
         return numero1 + numero2;

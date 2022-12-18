@@ -13,7 +13,7 @@ import java.util.List;
 
 public class EmpleadoCRUD {
 
-    List<Empleado> empleados = new ArrayList<Empleado>();
+    private List<Empleado> empleados = new ArrayList<Empleado>();
 
     /*
     *
@@ -29,14 +29,14 @@ public class EmpleadoCRUD {
     //actuaria como una base de datos
 
 
-    public void guardar(Empleado empleado){
+    public void save(Empleado empleado){
 
         empleados.add(empleado);
 
     }
 
     // RECUPERAR EMPLEADOS
-    public findAll(){
-        
+    public List<Empleado> findAll(){
+    return empleados;
     }
 }

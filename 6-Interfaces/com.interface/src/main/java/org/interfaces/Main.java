@@ -1,5 +1,6 @@
 package org.interfaces;
 
+import java.util.List
 public class Main {
 
     public static void main(String[] args) {
@@ -13,9 +14,12 @@ public class Main {
         Empleado ruben = new Empleado("Ruben",40,40000s,true);
 
         // GUARDAR EMPLEAOS
-        empleadoCRUD.guardar(juanito);
-        empleadoCRUD.guardar(patricia);
-        empleadoCRUD.guardar(ruben);
+        empleadoCRUD.save(juanito);
+        empleadoCRUD.save(patricia);
+        empleadoCRUD.save(ruben);
+
+        // MOSTRAR EMPLEADOS
+        List <Empleado> empleados = empleadoCRUD.findAll();
 
     }
 }

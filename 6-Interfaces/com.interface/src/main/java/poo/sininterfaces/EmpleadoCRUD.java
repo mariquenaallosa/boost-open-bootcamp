@@ -1,4 +1,4 @@
-package org.interfaces;
+package poo.sininterfaces;
 
 
 import java.util.ArrayList;
@@ -13,16 +13,10 @@ import java.util.List;
 
 public class EmpleadoCRUD {
 
+    // Estructura de datos
     private List<Empleado> empleados = new ArrayList<Empleado>();
 
-    /*
-    *
-    * Una interface seria como un contrato que define una serie de metodos de que hay que hacer pero no los hace sino que hay una clase que implementa la interfaz y es la que realiza los metodos
-    *
-    * Un ejemplo de Interface seria por ejemlo -> List
-    *
-    *
-     */
+
 
     //CREATE
     //guardar un empleado
@@ -35,7 +29,7 @@ public class EmpleadoCRUD {
 
     }
 
-    // RECUPERAR EMPLEADOS
+    // RECUPERAR EMPLEADOS- READ
     public List<Empleado> findAll(){
     return empleados;
     }

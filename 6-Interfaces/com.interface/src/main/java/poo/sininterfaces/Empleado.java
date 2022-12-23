@@ -1,4 +1,4 @@
-package org.interfaces;
+package poo.sininterfaces;
 
 public class Empleado {
 
@@ -24,5 +24,13 @@ public class Empleado {
     //3. métodos
 
 
-
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", salario=" + salario +
+                ", alta=" + alta +
+                '}';
+    }
 }

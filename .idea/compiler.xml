@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com.interface" />
         <module name="ob-poo" />
+        <module name="ob-refactoring" />
       </profile>
     </annotationProcessing>
   </component>

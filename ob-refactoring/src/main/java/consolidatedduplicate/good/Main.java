@@ -1,8 +1,7 @@
-package consolidatedconditional.good;
-
-
+package consolidatedduplicate.good;
 
 public class Main {
+
     private double extraSalary;
     private int seniority;
     private int education;
@@ -15,11 +14,10 @@ public class Main {
         double result = 0;
         if(isElegibleExtraSalary()){
             result = 500;
-            sendMessage(); // método que se repite en la condition
         }else {
             result = 0;
-            sendMessage(); // método que se repite en la condición
         }
+        sendMessage();
         return result;
 
     }
@@ -36,6 +34,5 @@ public class Main {
         boolean antiguedad = incidents > 10 && certification;
         return estudios || antiguedad;
     }
-
 
 }

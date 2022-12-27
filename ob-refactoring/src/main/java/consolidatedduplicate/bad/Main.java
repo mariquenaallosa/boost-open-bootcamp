@@ -1,5 +1,4 @@
-package consolidatedconditional.good;
-
+package consolidatedduplicate.bad;
 
 
 public class Main {

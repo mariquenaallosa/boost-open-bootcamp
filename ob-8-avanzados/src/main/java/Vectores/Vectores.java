@@ -25,7 +25,7 @@ package Vectores;
  * Al vector le podemos decir la capacidad de crecimiento para evitar la mayor cantidad de resizing
  *  -------------------------- new Vector (capacidadInicial, capacidadIncremento) ----------------------------------
  *
- *
+ * puede usar concurente - Multithreading
  *
  * -> añadir elemento .add()
  * -> eliminar elemento  .remove()

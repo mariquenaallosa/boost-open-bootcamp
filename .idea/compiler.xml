@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com.interface" />
         <module name="ob-poo" />
+        <module name="ob-8-avanzados" />
+        <module name="com.interface" />
         <module name="ob-refactoring" />
       </profile>
     </annotationProcessing>

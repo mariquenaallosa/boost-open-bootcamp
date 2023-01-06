@@ -1,12 +1,13 @@
 package Mapas;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /*
 *
 * -------------> Mapas <----------
-*
-* Reciben varios nombre, entre ellos :
+* -------------->HashMap<----------
+* Reciben varios nombre, entre ellos:
 *   Mapas
 *   Array Asociativos
 *
@@ -25,6 +26,24 @@ import java.util.HashMap;
 *
 * -> imprimir un valor en particular     .get(clave)
 *
+*  -> reemplazar valore en el mapa
+*           -> .put(clave,valor)
+*                           Si existe, sobreescribe
+*                           Si no existe, crea
+*           -> .replace(clave,valor)
+*                           Si existe, reempalza
+*                           Si no existe, lo ignora
+*
+*
+* -> eliminar valores    .remove(clave)
+*
+*
+* -> recorrer mapa      for
+*
+* Para recorrer el HashMapa debo usar Map.Entry elemento : mapa.entrySet()
+*
+* entrySet lo que hace es asignar a elemento cada valor del mapa a medida que lo recorre
+*
 */
 public class Mapas {
 
@@ -34,11 +53,18 @@ public class Mapas {
         mapa.put("clave1",10);
         mapa.put("clave2",20);
         mapa.put("clave3",30);
+        mapa.replace("clave4",70);
 
         System.out.println(mapa.get("clave1"));
+        mapa.put("clave3",90);
+        mapa.replace("clave1",30);
 
+        //mapa.remove("clave1");
 
-
+        for(Map.Entry elemento : mapa.entrySet()){
+            System.out.println("Elemento clave es: " + elemento.getKey());
+            System.out.println("El valor es: " + elemento.getValue());
+        }
     }
 
 

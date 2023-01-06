@@ -69,7 +69,7 @@ public class Mapas {
 
         //mapa.remove("clave1");
 
-        for(Map.Entry elemento : mapa.entrySet()){
+        for(Map.Entry<String, Integer> elemento : mapa.entrySet()){
             System.out.println("Elemento clave es: " + elemento.getKey());
             System.out.println("El valor es: " + elemento.getValue());
         }

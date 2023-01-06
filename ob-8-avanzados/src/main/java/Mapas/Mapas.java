@@ -6,8 +6,16 @@ import java.util.Map;
 /*
 *
 * -------------> Mapas <----------
+* Varían en la implementación subyacente
+* Tipicos :
+*       HashMap
+*       TreeMap
 * -------------->HashMap<----------
-* Reciben varios nombre, entre ellos:
+*
+* -> HashMap implementa una tabla Hash que es muy rápido para búsqueda e inserciones
+*
+*
+* Reciben varios nombres, entre ellos:
 *   Mapas
 *   Array Asociativos
 *
@@ -20,7 +28,7 @@ import java.util.Map;
 *
 * ->añadir     .put(clave,valor)
 *
-* Cuando hago un  .put() en un Map en donde ya tengo la clave
+* Cuando hago un .put() en un Map en donde ya tengo la clave
 * el valor de esta clave se sobreescribe.
 *
 *

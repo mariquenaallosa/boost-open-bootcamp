@@ -35,7 +35,12 @@ package Errores;
 *
 *
 *
-* --------------> Gestionar excepciones <--------------
+* ---------> Generar excepciones <--------------
+*
+* throw -> generar una excepcion
+*
+* throws -> para declarar que una funcion devuelve una excepcion
+*
 *
 *
 *

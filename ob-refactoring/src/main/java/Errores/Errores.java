@@ -22,6 +22,24 @@ package Errores;
 * Lo ideal es siempre solucionarlos, no ignorarlos porque puede traer
 * muchos errores a la larga.
 *
+* ---------> Gestion de error <---------------
+* try -> va el código que quieres "proteger"
+* catch(Exception e) ->  dispara la excepcion
+*   (Exception e) -> cuando no se cual es la excepcion y captura todas pero no es lo ideal
+*   (ExceptionEnConcreto e) -> específica
+* puedo ponerle tantos catch() como excepciones necesite.
+*
+* finally -> se ejecuta siempre
+*         -> se puede utilizar para resetear variables o así
+*         -> se dice que no está bien utilizarla
+*
+*
+*
+* --------------> Gestionar excepciones <--------------
+*
+*
+*
+*
  */
 public class Errores {
 }
